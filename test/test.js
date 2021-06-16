@@ -48,7 +48,7 @@ tape( 'attached to the main export is a method providing an ndarray interface', 
 
 tape( 'if a native implementation is available, the main export is the native implementation', opts, function test( t ) {
 	var dsort2sh = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
+		'@stdlib/utils-try-require': tryRequire
 	});
 
 	t.strictEqual( dsort2sh, mock, 'returns native implementation' );
@@ -70,7 +70,7 @@ tape( 'if a native implementation is not available, the main export is a JavaScr
 	main = require( './../lib/dsort2sh.js' );
 
 	dsort2sh = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
+		'@stdlib/utils-try-require': tryRequire
 	});
 
 	t.strictEqual( dsort2sh, main, 'returns JavaScript implementation' );
