@@ -20,7 +20,7 @@ limitations under the License.
 
 # dsort2sh
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Simultaneously sort two double-precision floating-point strided arrays based on the sort order of the first array using Shellsort.
 
@@ -293,8 +293,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-dsort2sh/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-dsort2sh?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-dsort2sh.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-dsort2sh/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
